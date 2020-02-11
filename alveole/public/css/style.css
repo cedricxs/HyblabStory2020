@@ -148,12 +148,19 @@ footer {
 
 #hotel {
   position: absolute;
-  left: 5%;
+  left: 10%;
+  top: 35%;
+  width: 25%;
+  height: 65%;
 }
 
 #studio {
   position: absolute;
-  right: 5%;
+  right: 10%;
+  top: 35%;
+  width: 25%;
+  height: 65%;
+  z-index: 1;
 }
 
 .slide1 {
@@ -739,14 +746,21 @@ dessus de l'apect ratio 16/9 */
   height: 100%;
 }
 
+.onClick {
+  position: absolute;
+  top: 45%;
+  width: 40%;
+  height: 55%;
+}
+
 #bouche1 {
   position: absolute;
-  left: 5%;
+  left: 3%;
 }
 
 #bouche2 {
   position: absolute;
-  right: 5%;
+  right: 3%;
 }
 
 .slide3 {
@@ -763,7 +777,7 @@ dessus de l'apect ratio 16/9 */
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
-  font-size: 17%;
+  font-size: 15%;
   text-align: center;
   letter-spacing: 0.21em;
   text-transform: uppercase;
@@ -811,7 +825,7 @@ dessus de l'apect ratio 16/9 */
   position: absolute;
   height: 60%;
   width: 18%;
-  top: 30%;
+  top: 40%;
 }
 
 .animation, .animation *{
@@ -987,7 +1001,7 @@ dessus de l'apect ratio 16/9 */
   font-style: normal;
   font-weight: 500;
   font-size: 15%;
-  line-height: 27px;
+  /* line-height: 27px; */
   text-align: center;
   letter-spacing: 0.21em;
   text-transform: uppercase;
@@ -998,7 +1012,7 @@ dessus de l'apect ratio 16/9 */
   width: 40%;
   height: 40%;
   top: 45%;
-  left: -0%;
+  left: 5%;
 }
 
 #slide7_2_choice {
@@ -1143,4 +1157,198 @@ dessus de l'apect ratio 16/9 */
 #soundcloud .cookiePolicy {
   visibility: hidden!important;
   display: none!important;
+}
+#sourcesButton {
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  height: 50%;
+  z-index: 1;
+}
+
+.lastOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  transition: opacity 500ms;
+  visibility: hidden;
+  z-index: 12;
+  opacity: 0;
+}
+
+.lastOverlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.close {
+  position: absolute;
+  top: 10%;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  z-index: 13;
+}
+.close:hover {
+  color: #9E90F2;
+}
+.content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#audencia {
+  position: absolute;
+  top: 35%;
+  height: 40%;
+  width: 14%;
+  left: 20%;
+}
+
+#polytech {
+  position: absolute;
+  top: 35%;
+  height: 40%;
+  width: 14%;
+  left: 43%;
+}
+
+#agr {
+  position: absolute;
+  top: 35%;
+  height: 40%;
+  width: 14%;
+  right: 20%;
+}
+
+#top {
+  position: absolute;
+  top: 10%;
+  height: 20%;
+  width: 40%;
+  left: 30%;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 10%;
+  width: 70%;
+  height: 20%;
+  left: 15%;
+}
+
+.person {
+  position: absolute;
+  width: 100%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15%;
+  text-align: center;
+  letter-spacing: 0.18em;
+}
+
+#person0 {
+  position: absolute;
+  bottom: 30%;
+  height: 10%;
+}
+
+#person1 {
+  position: absolute;
+  bottom: 20%;
+  height: 10%;
+}
+
+#person2 {
+  position: absolute;
+  bottom: 10%;
+  height: 10%;
+}
+
+.role {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 15%;
+  text-align: center;
+  letter-spacing: 0.21em;
+  text-transform: uppercase;
+}
+
+.logo {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 30%;
+}
+
+#logoAlv {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60%;
+}
+
+#svg_logo_conclu {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.svg_logo {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  bottom:
+}
+
+#names_ {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15%;
+  text-align: center;
+  letter-spacing: 0.18em;
+  bottom: 0;
+  text-transform: uppercase;
+}
+
+#svg_agr
+  .st0{fill:#FFFFFF;}
+#svg_agr
+  .st1{fill:#997D4A;}
+#svg_agr
+  .st2{fill:#E30613;}
+#svg_agr
+  .st3{fill:none;}
+#svg_agr
+  .st4{fill:#997D4A;stroke:#997D4A;stroke-width:0.25;stroke-miterlimit:10;}
+
+ #hyblab{
+  position: absolute;
+  left: 10%;
+  height: 100%;
+  width: 20%;
+}
+
+
+#medialab {
+  position: absolute;
+  right: 10%;
+  height: 100%;
+  width: 20%;
 }
